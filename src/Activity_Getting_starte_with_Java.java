@@ -17,5 +17,10 @@ public class Activity_Getting_starte_with_Java {
         double TotalPrice ;
         TotalPrice = NumberOfTickets * PricePerTicket;
         System.out.println("Total Price of tickets: " +TotalPrice );
+
+        //TODO 3: Concatenate first name and last name into new variable username with
+        String username = FirstName.toLowerCase() + LastName.toLowerCase();
+        // no space in between first and last name and convert them to lower case 
+        System.out.println("username: "+ username);
     }
 }
