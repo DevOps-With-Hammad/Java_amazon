@@ -13,5 +13,12 @@ public class Lab1 {
             System.out.println("Original Title : " + bookTitle);
             System.out.println("Shorten Title  :" + ShortBookTitle);
         }
+
+        // Declare and initialize the searchWord
+        String searchWord = "Captain";
+
+        // Check if the searchWord is present in book title
+        boolean containsWord = bookTitle.contains(searchWord);
+        System.out.println("Does the title contain the word \"" + searchWord + "\"? " + containsWord);
     }
 }
