@@ -22,5 +22,8 @@ public class Lab2 {
         System.out.println("Modified superhero name at position 3: " + P3Modfied);
         //Task 3: -
         System.out.println("Original introduction year for superhero at position 3:" + introductionYears[2]);
+        System.out.println("Modified introduction year for superhero at position 3:" + (introductionYears[2] = 2011));
+        System.out.println("Total superheroes names in String array:" +superheroes.length);
+        System.out.println("Total superheroes introduction year in int array: " + introductionYears.length);
     }
 }
