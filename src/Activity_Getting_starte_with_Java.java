@@ -22,5 +22,8 @@ public class Activity_Getting_starte_with_Java {
         String username = FirstName.toLowerCase() + LastName.toLowerCase();
         // no space in between first and last name and convert them to lower case 
         System.out.println("username: "+ username);
+        // TODO 4: Convert the movie title to upper case and assign to variable movieName 
+        String MovieName = Movie.toUpperCase();
+        System.out.println(MovieName);
     }
 }
