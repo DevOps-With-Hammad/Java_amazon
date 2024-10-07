@@ -14,5 +14,7 @@ public class Lab2 {
         System.out.println(introductionYears[2]);
         System.out.println(introductionYears[3]);
         System.out.println(introductionYears[4]);
+
+        System.out.println("Original superhero name at position 3:"+superheroes[3]);
     }
 }
