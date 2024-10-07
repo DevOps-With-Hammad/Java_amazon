@@ -15,6 +15,8 @@ public class Lab2 {
         System.out.println(introductionYears[3]);
         System.out.println(introductionYears[4]);
 
-        System.out.println("Original superhero name at position 3:"+superheroes[3]);
+        System.out.println("Original superhero name at position 3:"+superheroes[2]);
+        String P3Modfied = superheroes[2] ="Thor";
+        System.out.println("Modified superhero name at position 3: " + P3Modfied);
     }
 }
