@@ -51,5 +51,20 @@ public class explore_the_output_of_relational_operators {
             System.out.println("Go shop some souvenirs");
         }
         System.out.println("On trip to Parents . ");
+
+        //🖥️ TODO 5: Add an else statement to the code block below that displays “Think about the money” if moneyLeftWithToni is less than 300
+        //Select Run.
+        int MoneyLeftWithMM = 100;
+        if (MoneyLeftWithMM >= 300 ) {
+            System.out.println("Go to Las Vegas");
+            System.out.println("Enjoy some luck games");
+            System.out.println("Enjoy some concerts");
+            System.out.println("Enjoy fine dining");
+            System.out.println("Go on a helicopter ride");
+            System.out.println("Go shop some souvenirs");
+        }
+        else {
+            System.out.println("On trip to parents.");
+        }
     }
 }
