@@ -130,7 +130,22 @@ public class explore_the_output_of_relational_operators {
         System.out.println(myName.substring(16) + myName.equalsIgnoreCase(myName.substring(16))); // test false
         System.out.println((myName.substring(17) + (myName.equalsIgnoreCase(myName.substring(16))))); // test false
 
+        // ** equals(<String stringToCompareTo> **
+        String password = "secRetOfM3*@";
+
+        if(password.equals("secRetOfM3*@") ) {
+            System.out.println("Welcome");
+        }
+        if(password.compareTo("secRetOfM3*@0") == 1) {
+            System.out.println("Welcome");
+        }
 
 
+        // Determine if a String is empty
+        String testString1 = "";
+
+        if( testString1.isEmpty() ) {
+            System.out.println("The String is empty");
+        }
     }
 }
