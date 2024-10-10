@@ -24,5 +24,20 @@ public class explore_the_output_of_relational_operators {
             System.out.println("Go to Las Vegas");
         }
         System.out.println("On a home trip with Parents ");
+
+
+        //  🖥️ TODO 1:  Add an if statement to the code block below to display things Toni would like to do, only when moneyLeftWithToni >=300.
+        int MoneyLeftWithMe = 1500;
+        //1(a): Put your if-statement here to check if moneyLeftWithMe> =300.
+        //1(b): Put the display statements within the curly braces of the if.
+        if (MoneyLeftWithMe <= 1499){
+            System.out.println("Go to Las Vegas " );
+            System.out.println("Enjoy some luck games");
+            System.out.println("Enjoy some concerts");
+            System.out.println("Enjoy fine dining");
+            System.out.println("Go on a helicopter ride");
+            System.out.println("Go shop for some souvenirs");
+        }
+        System.out.println("On a trip with parents ");
     }
 }
