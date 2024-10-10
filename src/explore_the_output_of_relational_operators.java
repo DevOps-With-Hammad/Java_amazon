@@ -18,6 +18,11 @@ public class explore_the_output_of_relational_operators {
         System.out.println(" 10 < 20: " + (10 < 20));
         System.out.println(" 20 <= 20: " + (20 <= 20));
 
-        //
+        //Explore decision-making with conditional statements
+        int MoneyLeftWithTonie = 300;
+        if (MoneyLeftWithTonie >= 300 ){
+            System.out.println("Go to Las Vegas");
+        }
+        System.out.println("On a home trip with Parents ");
     }
 }
