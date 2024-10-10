@@ -66,5 +66,40 @@ public class explore_the_output_of_relational_operators {
         else {
             System.out.println("On trip to parents.");
         }
+
+
+       // 🖥️ TODO 6: moneyLeftWithToni >=300 go to Las Vegas and do the things he wants.
+       // 🖥️ TODO 7: else if moneyLeftWithToni <= 200 but less than 300, then go to Hoover Dam.
+      // 🖥️ TODO 8: else if moneyLeftWithToni <=100 but less than 200, then go to Area 51.
+      //🖥️ TODO 9: else if moneyLeftWithToni <= 50 but less than 100, then have an ice cream.
+      //🖥️ TODO 10: else if moneyLeftWithToni <50, then think about the money spent.
+
+        int MoneyWithMm = 050;
+        if (MoneyWithMm <= 300){
+            System.out.println("GoTo Las Vegas snd do the thing you want");
+        }
+        else if ( MoneyWithMm <= 200 && MoneyWithMm < 300 )
+        {
+            System.out.println("Go to area 51 ");
+        }
+        else if (MoneyWithMm <= 100 && MoneyWithMm <200 )
+        {
+           System.out.println("Then you have an Ice Cream");
+        }
+        else if (MoneyWithMm <= 50 && MoneyLeftWithMe <100)
+        {
+            System.out.println("Think about the money spent ");
+        }
+
+        // Manipulate a String with index numbers
+        String testString = "This is a test which is nice";
+        int indexOfSearch1= testString.indexOf("Java"); // returns -1
+        int indexOfSearch2 = testString.indexOf("is"); // returns 2
+        int indexOfSearch3 = testString.indexOf("est"); // returns 11
+
+        System.out.println("testString.indexOf(\"Java\") : " + testString.indexOf("Java"));
+        System.out.println("testString.indexOf(\"is\") : " + testString.indexOf("is"));
+        System.out.println("testString.indexOf(\"est\") : " + testString.indexOf("est"));
+
     }
 }
