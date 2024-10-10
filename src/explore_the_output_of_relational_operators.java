@@ -101,5 +101,15 @@ public class explore_the_output_of_relational_operators {
         System.out.println("testString.indexOf(\"is\") : " + testString.indexOf("is"));
         System.out.println("testString.indexOf(\"est\") : " + testString.indexOf("est"));
 
+
+        // Another manipulation of string with index numbers with Java
+
+        String MyName = "Software Engineering Java Developer coder ";
+        int IndexOfSearch_1 = MyName.indexOf("Eng");
+        int IndexOfSearch_2 = MyName.indexOf("coder");
+        int IndexOfSearch_3 = MyName.indexOf("ware");
+        System.out.println(IndexOfSearch_1); // 9
+        System.out.println(IndexOfSearch_2);// 36
+        System.out.println(IndexOfSearch_3);// 4
     }
 }
