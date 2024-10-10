@@ -111,5 +111,22 @@ public class explore_the_output_of_relational_operators {
         System.out.println(IndexOfSearch_1); // 9
         System.out.println(IndexOfSearch_2);// 36
         System.out.println(IndexOfSearch_3);// 4
+
+
+        // StartIndexPosition substring **
+
+        String myName=  " This is a small test ";
+        System.out.println(myName.substring(0)); // This is a small test
+        System.out.println(myName.substring(6)); // is a small test
+        System.out.println(myName.substring(8)); // a small test
+        System.out.println(myName.substring(11)); // small test
+        System.out.println(myName.substring(16)); //test
+
+        //  ** The  trim()method **
+        // can be utilized to eliminate leading and trailing spaces. For example, you’ll remove the spaces from the String "This is a test" as in the example below
+        System.out.println(myName.trim() );
+
+
+
     }
 }
