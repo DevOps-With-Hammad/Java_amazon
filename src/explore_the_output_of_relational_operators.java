@@ -39,5 +39,17 @@ public class explore_the_output_of_relational_operators {
             System.out.println("Go shop for some souvenirs");
         }
         System.out.println("On a trip with parents ");
+
+        //🖥️ TODO 4: In the code block below, remove the curly braces of the if statement and run it again.
+        int MoneyWithMe1 = 450;
+        if (MoneyWithMe1 >= 950 ){
+            System.out.println("Go to Las Vegas");
+            System.out.println("Enjoy some luck games");
+            System.out.println("Enjoy some concerts");
+            System.out.println("Enjoy fine dining");
+            System.out.println("Go on a helicopter ride");
+            System.out.println("Go shop some souvenirs");
+        }
+        System.out.println("On trip to Parents . ");
     }
 }
