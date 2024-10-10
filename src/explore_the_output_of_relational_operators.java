@@ -141,11 +141,19 @@ public class explore_the_output_of_relational_operators {
         }
 
 
-        // Determine if a String is empty
+        // ** Determine if a String is empty **
         String testString1 = "";
 
         if( testString1.isEmpty() ) {
             System.out.println("The String is empty");
+        }
+
+        // **  Determine if a String contains a substring **
+        String fullTitle = "I'm a Software Engineer ";
+        String Title = "Engineer";
+
+        if( fullTitle.contains(Title) ) {
+            System.out.println("The Title  " + Title + " exists in the Full Title role   " + fullTitle);
         }
     }
 }
