@@ -126,6 +126,10 @@ public class explore_the_output_of_relational_operators {
         // can be utilized to eliminate leading and trailing spaces. For example, you’ll remove the spaces from the String "This is a test" as in the example below
         System.out.println(myName.trim() );
 
+        //  ** equalsIgnoreCase(String stringToCompare) **
+        System.out.println(myName.substring(16) + myName.equalsIgnoreCase(myName.substring(16))); // test false
+        System.out.println((myName.substring(17) + (myName.equalsIgnoreCase(myName.substring(16))))); // test false
+
 
 
     }
