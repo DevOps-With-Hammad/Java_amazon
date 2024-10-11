@@ -56,5 +56,20 @@ public class Using_chained_conditions {
             }
         }
 
+        //Problem 5
+        int variable1 = 20, variable2 = 10;
+
+        if(variable1 > 12 && variable2 >25) {
+            System.out.println("$#");
+        }
+
+        if(variable1<=20 || variable2>=30) {
+            System.out.println("#$");
+        }
+        if(variable1 > 20 || variable2<=12) {
+            System.out.println("@@");
+        }
+
+
     }
 }
