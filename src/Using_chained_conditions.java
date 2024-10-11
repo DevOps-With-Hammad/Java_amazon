@@ -23,6 +23,38 @@ public class Using_chained_conditions {
         } else {
             System.out.println("Fail.");
         }
+        // problem 1
+        int checkVal = 15;
+
+        if(checkVal > 12 ) {
+            System.out.println("A");
+        }
+        if(checkVal < 17) {
+            System.out.println("C");
+        }
+
+        // problem 2
+        int checkVal1 = 15;
+        if(checkVal1 == 12) {
+            System.out.println("A");
+        }
+        // problem 3
+        int checkVal01 = 15;
+
+        if(checkVal01 < 12) {
+            System.out.println("**");
+        } else {
+            System.out.println("##");
+        }
+
+
+        // problem 4
+        int checkVal03 = 15;
+        if(checkVal03 > 10) {
+            if(checkVal03 < 20) {
+                System.out.println("##");
+            }
+        }
 
     }
 }
