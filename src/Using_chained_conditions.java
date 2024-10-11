@@ -70,6 +70,74 @@ public class Using_chained_conditions {
             System.out.println("@@");
         }
 
+        //  Problem 6
+        int month = 11;
+        switch (month) {
+            case 1:
+                System.out.println("January");
+                break;
+            case 2:
+                System.out.println("February");
+                break;
+            case 3:
+                System.out.println("March");
+                break;
+            case 10:
+                System.out.println("October");
+                break;
+            case 11:
+                System.out.println("November");
+            case 12:
+                System.out.println("December");
+            default:
+                System.out.println("Invalid month for playing with snow in our zone.");
+        }
+
+        // For Loop Problem
+        int i;
+        for(i=1; i <= 5 ; i++)
+            System.out.println(" " + i);
+            System.out.println(" # " + i);
+
+         // Problem with while loop
+        int loopVar = 1;
+        while (loopVar <= 3) {
+            System.out.print("Value= " + loopVar);
+            loopVar += 2;
+        } // the correct output for the following code is ??
+         // also what if the loopVar += 5 0r LoopVar += 1 >>
+        // the correct output for the following code is?
+
+
+        // Problem 7
+        int loopVar01 = 1;
+
+        do {
+            System.out.print ("  " + loopVar01);
+            loopVar01++;
+        } while (loopVar01 <= 3);
+
+
+        // Problem 8
+        int x = 12;
+
+        if(x > 10 ) {
+            System.out.print("A");
+
+            switch(x){
+                case 12:
+                    System.out.print("B");
+                    break;
+                case 14:
+                    System.out.print("D");
+                    break;
+            }
+
+
+        } else {
+            System.out.print("Z");
+        }
 
     }
+
 }
