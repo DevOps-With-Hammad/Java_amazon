@@ -138,6 +138,54 @@ public class Using_chained_conditions {
             System.out.print("Z");
         }
 
+        // problem 9
+        int checkVal001 = 25;
+
+        if(checkVal001 > 10)
+        {
+            if(checkVal001 <20) {
+                System.out.println("##");
+            }  else {
+                System.out.println("@@");
+            }
+        }
+
+
+
+
+        // problem 10
+        int variable01 = 5, variable02 = 10, variable03 = 2;
+
+        if(variable01 < 3 || variable02 > 25 || variable03 < 5) {
+            System.out.println("##");
+        }
+
+        // Problem 11
+        int loopVar011 = 12;
+
+        do {
+            System.out.println(" " + loopVar011);
+            loopVar011 = loopVar011 - 4;
+        } while (loopVar011 <= 3);
+
+
+        // problem 12
+        int xx = 12;
+
+        if(xx < 10 ) {
+            System.out.print("A");
+
+            if(xx < 20)  {
+                System.out.print("E");
+            } else {
+                System.out.print("X");
+            }
+
+        } else {
+            System.out.print ("Z");
+        }
+
     }
+
 
 }
