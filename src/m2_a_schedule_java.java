@@ -20,11 +20,14 @@ public class m2_a_schedule_java {
 
         // Variable for getting the day of the week
         int dayOfTheWeek;
+        boolean subChoice;
+
 
         // Loop to handle user input
         while (true) {
             System.out.println("Enter a day of the week (1 to 7) or 0 to exit: ");
             dayOfTheWeek = keyboard.nextInt(); // Read user input
+            subChoice = keyboard.nextBoolean();
 
             if (dayOfTheWeek == 0) {
                 System.out.println("Exiting program. Goodbye!");
@@ -40,6 +43,9 @@ public class m2_a_schedule_java {
             switch (dayOfTheWeek) {
                 case 1:
                     System.out.println("Monday: It is back to work.....");
+                    if (subChoice ==true){
+                        System.out.println("Ive got lunch ");
+                    }
                     break;
                 case 2:
                     System.out.println("Tuesday: It is back to work.....Again");
