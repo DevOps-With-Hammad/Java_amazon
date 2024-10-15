@@ -116,7 +116,7 @@ public class explore_the_output_of_relational_operators {
         // StartIndexPosition substring **
 
         String myName=  " This is a small test ";
-        System.out.println(myName.substring(0)); // This is a small test
+        System.out.println(myName); // This is a small test
         System.out.println(myName.substring(6)); // is a small test
         System.out.println(myName.substring(8)); // a small test
         System.out.println(myName.substring(11)); // small test
