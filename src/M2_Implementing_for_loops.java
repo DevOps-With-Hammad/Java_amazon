@@ -6,10 +6,10 @@ public class M2_Implementing_for_loops {
             System.out.println(scoopsSold);
         } /* Simple for loop to count form 0 to 9 */
 
-        System.out.print("Selling chocolate ice cream: 20 scoops");
+        System.out.println("Selling chocolate ice cream: 20 scoops");
         for(scoopsSold=0; scoopsSold<20; scoopsSold++) {
-            System.out.print("Sold Scoop No: " + (scoopsSold + 1));
+            System.out.println("Sold Scoop No: " + (scoopsSold + 1));
         }
-        System.out.print("No more chocolate scoops left in box.");
+        System.out.println("No more chocolate scoops left in box.");
     }// Small program for FOR loop
 }
