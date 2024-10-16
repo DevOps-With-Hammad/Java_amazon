@@ -36,5 +36,20 @@ public class M2_Implementing_for_loops {
         }
 
 
+        //problem 02
+        for(int loopVar01 = 1; loopVar01 <  10 ; loopVar01 += 3 ) {
+            System.out.print("\tValue : " + loopVar01);
+        }
+
+        // Problem 03
+        int numberToEvaluate = 11111;
+
+        while(numberToEvaluate > 0) {
+
+            numberToEvaluate = numberToEvaluate/10;
+            System.out.println("The number: " + numberToEvaluate);
+
+        }
+
     }
 }
