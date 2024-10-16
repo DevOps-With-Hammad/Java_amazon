@@ -28,7 +28,12 @@ public class M2_Implementing_for_loops {
         System.out.println("The total number of vowels in the String is: " + countVowels);
 
 
+        // problem 01
+        int loopVar;
 
+        for(loopVar=7; loopVar >=  1 ; loopVar-- ) {
+            System.out.println("Hello");
+        }
 
 
     }
