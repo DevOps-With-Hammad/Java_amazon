@@ -50,6 +50,11 @@ public class M2_Implementing_for_loops {
             System.out.println("The number: " + numberToEvaluate);
 
         }
+        // Problem 04
+        int loopVar001 = 12;
 
+        do {
+            System.out.println("The number: " + loopVar001 + " gives the condition (loopVar <10) as: " + (loopVar001 < 10));
+        } while(loopVar001 < 10);
     }
 }
