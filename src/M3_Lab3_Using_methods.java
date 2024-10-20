@@ -2,11 +2,9 @@ public class M3_Lab3_Using_methods {
 
     // Array to sort the names of ingredients
     static String ingredients[];
-
     //Variable for sorting the status of sandwich.
     // is ready or not
     static  boolean isSandwichRead;
-
     public static void gatherIngredients(){
         ingredients = new  String[4];
         ingredients[0]= new String ("Bread");
@@ -26,24 +24,19 @@ public class M3_Lab3_Using_methods {
                 isSandwichRead= true;
             }
         }
-
     }
     public static void serveSandwich(){
         //
         if (isSandwichRead== true){
             System.out.println("Serving Sandwich now ... ");
         }
-
     }
     public static void main (String []args){
         // gather ingredients
         gatherIngredients();
-
         //assemble a sandwich
         assembleSandwich();
-
         //serve sandwich
         serveSandwich();
-
     }
 }
