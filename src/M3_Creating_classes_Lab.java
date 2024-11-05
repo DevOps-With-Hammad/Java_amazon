@@ -35,5 +35,12 @@ public class M3_Creating_classes_Lab {
 
     public static  void main(String []args){
         System.out.println("welcome to care manufacture ");
+        car myFirstCar = new car();
+        myFirstCar.make = "Isuzu";
+        myFirstCar.model = "Super Faster KB";
+        myFirstCar.year = 2001;
+
+        // display the car details for myFirstCar
+        myFirstCar.getCarDetails();
     }
 }
