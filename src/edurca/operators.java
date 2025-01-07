@@ -17,6 +17,12 @@ public class operators {
         System.out.println(x >>y);
         System.out.println(x<<x);
 
-    }
+        //  ********Relational Operator****** //
+        int a = 10 ; int b = 25 ; int c = 5 ;
+        System.out.println(a<b && a>c );
+        System.out.println(a<b & a<c);
 
+
+
+    }
 }
