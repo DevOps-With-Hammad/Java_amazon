@@ -23,11 +23,18 @@ public class operators {
         System.out.println(a<b & a<c);
 
 
-       // Bitwise operators
+       // *************Bitwise operators***********
         int s = 5 ; int f = 7; int g= 9;
         System.out.println(s<f && f++ >f);
         System.out.println(s);
         System.out.println(g>s & g++> f );
         System.out.println(g);
+
+        //***************Ternary logical Operator ***********
+        int e = 2; int h = 5;
+        int min = (e>h)?e:h;
+        System.out.println(min);
+
+
     }
 }
