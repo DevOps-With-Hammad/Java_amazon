@@ -41,6 +41,5 @@ public class operators {
         l+=4;  p-=4;
         System.out.println("This is  : "+ l);
         System.out.println(("This is : "+ p));
-
     }
 }
