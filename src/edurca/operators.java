@@ -35,6 +35,12 @@ public class operators {
         int min = (e>h)?e:h;
         System.out.println(min);
 
+        // Assignment Operator
+        int l = 10;
+        int p = 20;
+        l+=4;  p-=4;
+        System.out.println("This is  : "+ l);
+        System.out.println(("This is : "+ p));
 
     }
 }
