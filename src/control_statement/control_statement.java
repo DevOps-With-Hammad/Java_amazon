@@ -27,10 +27,4 @@ public class control_statement {
             System.out.println(i);
             i = i + 1;
         }while (i<= 100);
-
-
-
-        // ** ** ** for loob ** *** ** //
-
-    }//** close of public class **//
-}
+    }
