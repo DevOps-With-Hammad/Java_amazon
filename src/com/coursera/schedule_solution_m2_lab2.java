@@ -1,4 +1,4 @@
-
+package com.coursera;
 /** TODO 1 Solution Start: Import the Scanner **/
 import java.util.Scanner;
 

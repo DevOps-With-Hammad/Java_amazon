@@ -1,3 +1,5 @@
+package com.coursera;
+
 public class Activity_Getting_starte_with_Java {
     public static void main (String [] args)
     {

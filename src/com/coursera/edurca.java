@@ -1,3 +1,5 @@
+package com.coursera;
+
 public class edurca {
     public static void main (String []args){
         int x = 0;

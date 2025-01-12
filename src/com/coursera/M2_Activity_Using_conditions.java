@@ -1,3 +1,5 @@
+package com.coursera;
+
 public class M2_Activity_Using_conditions {
     public static void main (String [] args){
         /* Task 1: Writing conditional statements

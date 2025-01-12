@@ -1,3 +1,5 @@
+package com.coursera;
+
 public class Using_chained_conditions {
     public static void main (String[] args)
     {

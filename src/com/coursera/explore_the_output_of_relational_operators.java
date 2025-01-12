@@ -1,3 +1,5 @@
+package com.coursera;
+
 public class explore_the_output_of_relational_operators {
     //Explore the output of relational operators
     public static void main (String [] args ){

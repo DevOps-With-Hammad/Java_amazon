@@ -1,3 +1,5 @@
+package com.coursera;
+
 public class M2_Implementing_for_loops {
     public static void main (String [] args ){
         int scoopsSold;

@@ -1,4 +1,4 @@
-// Import Java Scanner
+package com.coursera;// Import Java Scanner
 import java.util.Scanner;
 
 public class m2_Building_a_schedule {

@@ -1,3 +1,5 @@
+package com.coursera;
+
 public class Lab2 {
     public static void main (String[] args) {
         //Task 0 :-

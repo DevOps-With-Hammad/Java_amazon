@@ -1,3 +1,5 @@
+package com.coursera;
+
 import java.util.Scanner;
 
 public class M2_Using_conditional_loop_Lab {

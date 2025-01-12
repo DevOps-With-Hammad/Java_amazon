@@ -1,3 +1,5 @@
+package com.coursera;
+
 import java.lang.String;
 
 public class GttingStartedWIthJava {

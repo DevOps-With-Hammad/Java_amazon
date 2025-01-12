@@ -1,4 +1,4 @@
-/*TODO #1 :- Import the Scanner  */
+package com.coursera;/*TODO #1 :- Import the Scanner  */
 import java.util.Scanner;
 public class m2_lab2_sec {
     public static void main (String [] args) {

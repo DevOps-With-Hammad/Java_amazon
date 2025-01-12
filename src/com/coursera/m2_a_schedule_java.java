@@ -1,3 +1,5 @@
+package com.coursera;
+
 import java.util.Scanner;
 
 public class m2_a_schedule_java {

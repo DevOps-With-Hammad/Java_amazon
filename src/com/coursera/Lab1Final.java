@@ -1,3 +1,5 @@
+package com.coursera;
+
 public class Lab1Final {
     public static void main (String [] args ) {
         String  BooKT = " Java programming is fun and educational ";
