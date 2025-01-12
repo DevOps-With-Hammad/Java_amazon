@@ -1,13 +1,14 @@
 package control_statement;
 
 public class control_statement {
-    public static void main (String [] args ){
+    public static void main(String[] args) {
         // ** ** **  If Else Loop in Java ** ** //
-        int a = 5;  int b = 10;
-        if (a> b ){
-            System.out.println(" A is greater than B because a=" + a+ " and b ="+b);
+        int a = 5;
+        int b = 10;
+        if (a > b) {
+            System.out.println(" A is greater than B because a=" + a + " and b =" + b);
         }
-        System.out.println("A is greater than A because a=" + a+ " and b ="+b);
+        System.out.println("A is greater than A because a=" + a + " and b =" + b);
         System.out.println("Welcome to Java Coding ");
 
 
@@ -16,8 +17,8 @@ public class control_statement {
         // while loop is an iteration loop that gets itself executed until the provided condition in the loop is true
 
         System.out.println("Hello ");
-        int n =5;
-        while (n <= 0);
+        int n = 5;
+        while (n <= 0) ;
         {
             System.out.println(n++);
         }
@@ -26,5 +27,6 @@ public class control_statement {
         do {
             System.out.println(i);
             i = i + 1;
-        }while (i<= 100);
+        } while (i <= 100);
     }
+}
